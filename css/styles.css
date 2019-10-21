@@ -126,6 +126,35 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  width: 94%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 3%;
+}
+nav .signIn {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+}
+nav .signIn a {
+  text-decoration: none;
+  color: black;
+  margin-right: 0;
+}
+nav a {
+  font-size: 1.6vw;
+  margin-right: 1.8vw;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
 .home header {
   position: relative;
   text-align: center;
