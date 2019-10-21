@@ -132,6 +132,9 @@ nav {
   align-items: baseline;
   justify-content: space-around;
   padding: 3%;
+  border-color: black;
+  border-bottom-style: solid;
+  border-width: 0.35vw;
 }
 nav .signIn {
   border-radius: 0.3vw;
@@ -163,6 +166,10 @@ nav a {
 }
 .home header img {
   width: 100%;
+  height: auto;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 0.35vw;
 }
 .home header .companyOnImage {
   position: absolute;
@@ -179,4 +186,23 @@ nav a {
 }
 .home header .sloganOnImage a {
   color: white;
+}
+.home section {
+  display: flex;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home section .leftSideOne {
+  width: 50%;
+  font-size: 3vw;
+  font-style: oblique;
+  padding-right: 2vw;
+}
+.home section .rightSideOne {
+  width: 50%;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  padding-left: 2vw;
 }
