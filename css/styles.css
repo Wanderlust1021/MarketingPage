@@ -211,9 +211,29 @@ nav a {
   width: 100%;
   height: auto;
   justify-content: space-around;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 .home section .suggestions img {
   width: 30%;
   margin-left: 0.5%;
   margin-right: 0.5%;
+}
+.home section .suggestions .textOnLAImage {
+  position: absolute;
+  top: 3.5vw;
+  left: 5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestions .textOnNYImage {
+  position: absolute;
+  top: 3.5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestions .textOnChicagoImage {
+  position: absolute;
+  top: 3.5vw;
+  right: 8.5vw;
+  font-size: 4.5vw;
 }
