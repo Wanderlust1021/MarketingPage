@@ -126,3 +126,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.home header {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+}
+.home header img {
+  width: 100%;
+}
+.home header .companyOnImage {
+  position: absolute;
+  top: 3.5vw;
+  left: 3.5vw;
+  font-size: 4.5vw;
+}
+.home header .sloganOnImage {
+  position: absolute;
+  top: 8.5vw;
+  left: 3.8vw;
+  text-align: left;
+  font-size: 2vw;
+}
+.home header .sloganOnImage a {
+  color: white;
+}
