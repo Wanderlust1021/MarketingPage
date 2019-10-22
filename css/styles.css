@@ -135,28 +135,44 @@ nav {
   border-color: black;
   border-bottom-style: solid;
   border-width: 0.35vw;
+  background-color: black;
 }
 nav .signIn {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
 }
 nav .signIn a {
   text-decoration: none;
-  color: black;
+  color: white;
   margin-right: 0;
 }
 nav a {
   font-size: 1.6vw;
   margin-right: 1.8vw;
   text-decoration: none;
-  color: black;
+  color: white;
   white-space: nowrap;
+}
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  white-space: nowrap;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  font-size: 1.3vw;
 }
 .home header {
   position: relative;
@@ -235,9 +251,9 @@ nav a {
 .home section .suggestionsOne .buttonOnLAImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
@@ -257,9 +273,9 @@ nav a {
 .home section .suggestionsOne .buttonOnNYImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
@@ -279,9 +295,9 @@ nav a {
 .home section .suggestionsOne .buttonOnChicagoImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
@@ -317,9 +333,9 @@ nav a {
 .home section .suggestionsTwo .buttonOnAustinImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
@@ -339,9 +355,9 @@ nav a {
 .home section .suggestionsTwo .buttonOnSeattleImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
@@ -361,9 +377,9 @@ nav a {
 .home section .suggestionsTwo .buttonOnWashingtonImage {
   border-radius: 0.3vw;
   text-align: center;
-  color: black;
+  color: white;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
