@@ -160,19 +160,23 @@ nav a {
   white-space: nowrap;
 }
 footer {
+  width: 100%;
   background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #FFFFFF;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   white-space: nowrap;
   padding-top: 1em;
   padding-bottom: 1em;
   margin-top: 1em;
   font-size: 1.3vw;
+  position: absolute;
+  bottom: 0;
+}
+.home {
+  height: 100%;
 }
 .home header {
   position: relative;
