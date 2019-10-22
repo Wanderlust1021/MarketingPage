@@ -375,3 +375,35 @@ nav a {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+.home section .advantages {
+  display: flex;
+  flex-direction: row;
+}
+.home section .advantages .users {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.home section .advantages .users img {
+  width: 10%;
+  height: auto;
+}
+.home section .advantages .users p {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+.home section .advantages .guides {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.home section .advantages .guides img {
+  width: 10%;
+  height: auto;
+}
+.home section .advantages .guides p {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
