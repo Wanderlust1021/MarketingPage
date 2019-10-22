@@ -1,18 +1,15 @@
 .home {
-    height: 100%;
+    height     : 100%;
+    font-family: 'Dosis', sans-serif;
 
     header {
-        position   : relative;
-        text-align : center;
-        color      : @textOnImages;
-        font-family: 'Dosis', sans-serif;
+        position  : relative;
+        text-align: center;
+        color     : @textOnImages;
 
         img {
-            width              : 100%;
-            height             : auto;
-            border-bottom-style: solid;
-            border-color       : black;
-            border-width       : 0.35vw;
+            width : 100%;
+            height: auto;
         }
 
         .companyOnImage {
@@ -34,12 +31,6 @@
             }
         }
     }
-
-    // .aboutHeader {
-    //     header {
-
-    //     }
-    // }
 
     section {
         display       : flex;
@@ -257,6 +248,55 @@
                     font-size   : 1.3vw;
                     margin-left : 5vw;
                     margin-right: 5vw;
+                }
+            }
+        }
+
+        .meetUs {
+            display        : flex;
+            justify-content: center;
+
+            h1 {
+                font-size: 5vw;
+            }
+        }
+
+        .team {
+            display  : flex;
+            flex-wrap: wrap;
+
+            .member {
+                width          : 33.3%;
+                justify-content: center;
+                align-items    : center;
+                padding-bottom : 5%;
+
+                h3 {
+                    text-align: center;
+                    color     : black;
+                    font-size : 1.8vw;
+                }
+
+                p {
+                    text-align: center;
+                    color     : black;
+                    font-size : 1.5vw;
+                }
+
+                .profilePic {
+                    display        : flex;
+                    align-items    : center;
+                    justify-content: center;
+
+                    img {
+                        width         : 70%;
+                        height        : auto;
+                        padding-left  : 15%;
+                        padding-right : 15%;
+                        padding-bottom: 5%;
+                        padding-top   : 5%;
+                        border-radius : 50%;
+                    }
                 }
             }
         }

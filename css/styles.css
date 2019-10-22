@@ -133,6 +133,7 @@ nav {
   justify-content: space-around;
   padding: 3%;
   border-color: black;
+  border-top-style: solid;
   border-bottom-style: solid;
   border-width: 0.35vw;
   background-color: black;
@@ -172,24 +173,19 @@ footer {
   padding-bottom: 1em;
   margin-top: 1em;
   font-size: 1.3vw;
-  position: absolute;
-  bottom: 0;
 }
 .home {
   height: 100%;
+  font-family: 'Dosis', sans-serif;
 }
 .home header {
   position: relative;
   text-align: center;
   color: #FFFFFF;
-  font-family: 'Dosis', sans-serif;
 }
 .home header img {
   width: 100%;
   height: auto;
-  border-bottom-style: solid;
-  border-color: black;
-  border-width: 0.35vw;
 }
 .home header .companyOnImage {
   position: absolute;
@@ -440,4 +436,45 @@ footer {
   font-size: 1.3vw;
   margin-left: 5vw;
   margin-right: 5vw;
+}
+.home section .meetUs {
+  display: flex;
+  justify-content: center;
+}
+.home section .meetUs h1 {
+  font-size: 5vw;
+}
+.home section .team {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home section .team .member {
+  width: 33.3%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+.home section .team .member h3 {
+  text-align: center;
+  color: black;
+  font-size: 1.8vw;
+}
+.home section .team .member p {
+  text-align: center;
+  color: black;
+  font-size: 1.5vw;
+}
+.home section .team .member .profilePic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home section .team .member .profilePic img {
+  width: 70%;
+  height: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border-radius: 50%;
 }
