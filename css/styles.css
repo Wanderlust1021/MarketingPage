@@ -126,3 +126,318 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  width: 94%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 3%;
+  border-color: black;
+  border-bottom-style: solid;
+  border-width: 0.35vw;
+  background-color: black;
+}
+nav .signIn {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+}
+nav .signIn a {
+  text-decoration: none;
+  color: white;
+  margin-right: 0;
+}
+nav a {
+  font-size: 1.6vw;
+  margin-right: 1.8vw;
+  text-decoration: none;
+  color: white;
+  white-space: nowrap;
+}
+footer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  white-space: nowrap;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  font-size: 1.3vw;
+  position: absolute;
+  bottom: 0;
+}
+.home {
+  height: 100%;
+}
+.home header {
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+}
+.home header img {
+  width: 100%;
+  height: auto;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 0.35vw;
+}
+.home header .companyOnImage {
+  position: absolute;
+  top: 3.5vw;
+  left: 3.5vw;
+  font-size: 4.5vw;
+}
+.home header .sloganOnImage {
+  position: absolute;
+  top: 8.5vw;
+  left: 3.8vw;
+  text-align: left;
+  font-size: 2vw;
+}
+.home header .sloganOnImage a {
+  color: #FFFFFF;
+}
+.home section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.home section .introduction {
+  display: flex;
+  flex-direction: row;
+}
+.home section .introduction .leftSideOne {
+  width: 50%;
+  font-size: 3vw;
+  font-style: oblique;
+  padding-right: 2vw;
+  margin-left: 2.5%;
+}
+.home section .introduction .rightSideOne {
+  width: 50%;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  padding-left: 2vw;
+  margin-right: 2.5%;
+}
+.home section .suggestionsOne {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+}
+.home section .suggestionsOne img {
+  width: 30%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  margin-bottom: 2%;
+}
+.home section .suggestionsOne .textOnLAImage {
+  position: absolute;
+  top: 3.5vw;
+  left: 5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsOne .buttonOnLAImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  left: 10vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .suggestionsOne .textOnNYImage {
+  position: absolute;
+  top: 3.5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsOne .buttonOnNYImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .suggestionsOne .textOnChicagoImage {
+  position: absolute;
+  top: 3.5vw;
+  right: 8.5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsOne .buttonOnChicagoImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  right: 10vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .suggestionsTwo {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+}
+.home section .suggestionsTwo img {
+  width: 30%;
+  margin-left: 1.7%;
+  margin-right: 1.4%;
+  margin-bottom: 2%;
+}
+.home section .suggestionsTwo .textOnAustinImage {
+  position: absolute;
+  top: 3.5vw;
+  left: 4.5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsTwo .buttonOnAustinImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  left: 10vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .suggestionsTwo .textOnSeattleImage {
+  position: absolute;
+  top: 3.5vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsTwo .buttonOnSeattleImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .suggestionsTwo .textOnWashingtonImage {
+  position: absolute;
+  top: 3.5vw;
+  right: 6vw;
+  font-size: 4.5vw;
+}
+.home section .suggestionsTwo .buttonOnWashingtonImage {
+  border-radius: 0.3vw;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  padding: 0.5vw;
+  border-width: 0.12vw;
+  white-space: nowrap;
+  position: absolute;
+  top: 37vw;
+  right: 10vw;
+  font-size: 2vw;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  text-decoration: none;
+}
+.home section .advantages {
+  display: flex;
+  flex-direction: row;
+}
+.home section .advantages .users {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.home section .advantages .users img {
+  width: 10%;
+  height: auto;
+  margin-bottom: 1.5vw;
+}
+.home section .advantages .users h3 {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+.home section .advantages .users p {
+  text-align: center;
+  font-size: 1.3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.home section .advantages .guides {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+.home section .advantages .guides img {
+  width: 10%;
+  height: auto;
+  margin-bottom: 1.5vw;
+}
+.home section .advantages .guides h3 {
+  font-size: 2.5vw;
+  margin-bottom: 1vw;
+}
+.home section .advantages .guides p {
+  text-align: center;
+  font-size: 1.3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
