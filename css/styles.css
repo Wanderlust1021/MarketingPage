@@ -388,10 +388,17 @@ nav a {
 .home section .advantages .users img {
   width: 10%;
   height: auto;
+  margin-bottom: 1.5vw;
 }
-.home section .advantages .users p {
+.home section .advantages .users h3 {
   font-size: 2.5vw;
   margin-bottom: 1vw;
+}
+.home section .advantages .users p {
+  text-align: center;
+  font-size: 1.3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .home section .advantages .guides {
   display: flex;
@@ -402,8 +409,15 @@ nav a {
 .home section .advantages .guides img {
   width: 10%;
   height: auto;
+  margin-bottom: 1.5vw;
 }
-.home section .advantages .guides p {
+.home section .advantages .guides h3 {
   font-size: 2.5vw;
   margin-bottom: 1vw;
+}
+.home section .advantages .guides p {
+  text-align: center;
+  font-size: 1.3vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
