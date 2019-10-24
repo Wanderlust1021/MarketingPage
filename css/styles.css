@@ -127,11 +127,11 @@ table {
   border-spacing: 0;
 }
 nav {
-  width: 94%;
+  width: 96%;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-around;
-  padding: 3%;
+  padding: 2%;
   border-color: black;
   border-top-style: solid;
   border-bottom-style: solid;
@@ -180,7 +180,6 @@ footer {
 }
 .home header {
   position: relative;
-  text-align: center;
   color: #FFFFFF;
 }
 .home header img {
@@ -188,6 +187,8 @@ footer {
   height: auto;
 }
 .home header .companyOnImage {
+  display: flex;
+  align-items: center;
   position: absolute;
   top: 3.5vw;
   left: 3.5vw;
@@ -208,6 +209,38 @@ footer {
   flex-direction: column;
   margin-top: 4%;
   margin-bottom: 4%;
+}
+.home section .container {
+  padding: 1vw;
+}
+.home section .container h2 {
+  text-align: center;
+  padding-bottom: 2vw;
+  font-size: 3vw;
+}
+.home section .container input[type=text],
+.home section .container input[type=email],
+.home section .container select,
+.home section .container textarea {
+  width: 100%;
+  padding: 0.8vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.home section .container input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.home section .container input[type=submit]:hover {
+  background-color: lightgrey;
 }
 .home section .introduction {
   display: flex;
