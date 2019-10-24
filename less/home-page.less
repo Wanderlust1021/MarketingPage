@@ -13,11 +13,17 @@
 
         .companyOnImage {
             display    : flex;
-            align-items: stretch;
+            align-items: center;
             position   : absolute;
             top        : 3.5vw;
             left       : 3.5vw;
             font-size  : 4.5vw;
+
+            @media @phone {
+                width        : 80%;
+                font-size    : 3vw;
+                margin-bottom: 1vw;
+            }
         }
 
         .sloganOnImage {
@@ -26,6 +32,10 @@
             left      : 3.8vw;
             text-align: left;
             font-size : 2vw;
+
+            @media @phone {
+                display: none;
+            }
 
             a {
                 color: @textOnImages;
@@ -80,12 +90,23 @@
             display       : flex;
             flex-direction: row;
 
+            @media @phone {
+                flex-direction: column;
+                align-items   : center;
+            }
+
             .leftSideOne {
                 width        : 50%;
                 font-size    : 3vw;
                 font-style   : oblique;
                 padding-right: 2vw;
                 margin-left  : 2.5%;
+
+                @media @phone {
+                    width        : 80%;
+                    font-size    : 5vw;
+                    margin-bottom: 3vw;
+                }
             }
 
             .rightSideOne {
@@ -94,6 +115,12 @@
                 line-height : 1.5;
                 padding-left: 2vw;
                 margin-right: 2.5%;
+
+                @media @phone {
+                    width        : 80%;
+                    font-size    : 3vw;
+                    margin-bottom: 1vw;
+                }
             }
         }
 
@@ -106,11 +133,23 @@
             text-align     : center;
             color          : @textOnImages;
 
+            @media @phone {
+                width         : 100%;
+                flex-direction: column;
+                align-items   : center;
+            }
+
             img {
                 width        : 30%;
                 margin-left  : 1.5%;
                 margin-right : 1.5%;
                 margin-bottom: 2%;
+
+                @media @phone {
+                    width  : 70%;
+                    margin : 0;
+                    padding: 1vw;
+                }
             }
 
             .textOnLAImage {
@@ -118,6 +157,13 @@
                 top      : 3.5vw;
                 left     : 5vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 5vw;
+                    font-size: 8vw;
+                    left     : 33vw;
+                }
             }
 
             .buttonOnLAImage {
@@ -129,12 +175,28 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 90vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    left           : 40vw;
+                }
             }
 
             .textOnNYImage {
                 position : absolute;
                 top      : 3.5vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 112vw;
+                    font-size: 8vw;
+                }
             }
 
             .buttonOnNYImage {
@@ -145,6 +207,15 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 197vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                }
             }
 
             .textOnChicagoImage {
@@ -152,6 +223,13 @@
                 top      : 3.5vw;
                 right    : 8.5vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 219vw;
+                    font-size: 8vw;
+                    right    : 37vw;
+                }
             }
 
             .buttonOnChicagoImage {
@@ -163,6 +241,16 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 305vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    right          : 37vw;
+                }
             }
         }
 
@@ -175,11 +263,23 @@
             text-align     : center;
             color          : @textOnImages;
 
+            @media @phone {
+                width         : 100%;
+                flex-direction: column;
+                align-items   : center;
+            }
+
             img {
                 width        : 30%;
                 margin-left  : 1.7%;
                 margin-right : 1.4%;
                 margin-bottom: 2%;
+
+                @media @phone {
+                    width  : 70%;
+                    margin : 0;
+                    padding: 1vw;
+                }
             }
 
             .textOnAustinImage {
@@ -187,6 +287,13 @@
                 top      : 3.5vw;
                 left     : 4.5vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 5vw;
+                    font-size: 8vw;
+                    left     : 33vw;
+                }
             }
 
             .buttonOnAustinImage {
@@ -198,12 +305,28 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 90vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    left           : 40vw;
+                }
             }
 
             .textOnSeattleImage {
                 position : absolute;
                 top      : 3.5vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 115vw;
+                    font-size: 8vw;
+                }
             }
 
             .buttonOnSeattleImage {
@@ -214,6 +337,15 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 202vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                }
             }
 
             .textOnWashingtonImage {
@@ -221,6 +353,13 @@
                 top      : 3.5vw;
                 right    : 6vw;
                 font-size: 4.5vw;
+
+                @media @phone {
+                    position : absolute;
+                    top      : 225vw;
+                    font-size: 8vw;
+                    right    : 33vw;
+                }
             }
 
             .buttonOnWashingtonImage {
@@ -232,6 +371,16 @@
                 color          : @textOnImages;
                 border-color   : @textOnImages;
                 text-decoration: none;
+
+                @media @phone {
+                    position       : absolute;
+                    top            : 310vw;
+                    font-size      : 4vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    right          : 37vw;
+                }
             }
         }
 
@@ -239,21 +388,40 @@
             display       : flex;
             flex-direction: row;
 
+            @media @phone {
+                width         : 100%;
+                flex-direction: column;
+                align-items   : center
+            }
+
             .users {
                 display       : flex;
                 flex-direction: column;
                 width         : 50%;
                 align-items   : center;
 
+                @media @phone {
+                    width : 70%;
+                    margin: 4vw;
+                }
+
                 img {
                     width        : 10%;
                     height       : auto;
                     margin-bottom: 1.5vw;
+
+                    @media @phone {
+                        width: 15%;
+                    }
                 }
 
                 h3 {
                     font-size    : 2.5vw;
                     margin-bottom: 1vw;
+
+                    @media @phone {
+                        font-size: 5vw;
+                    }
                 }
 
                 p {
@@ -261,6 +429,10 @@
                     font-size   : 1.3vw;
                     margin-left : 5vw;
                     margin-right: 5vw;
+
+                    @media @phone {
+                        font-size: 3vw;
+                    }
                 }
             }
 
@@ -270,15 +442,28 @@
                 width         : 50%;
                 align-items   : center;
 
+                @media @phone {
+                    width : 70%;
+                    margin: 4vw;
+                }
+
                 img {
                     width        : 10%;
                     height       : auto;
                     margin-bottom: 1.5vw;
+
+                    @media @phone {
+                        width: 15%;
+                    }
                 }
 
                 h3 {
                     font-size    : 2.5vw;
                     margin-bottom: 1vw;
+
+                    @media @phone {
+                        font-size: 5vw;
+                    }
                 }
 
                 p {
@@ -286,6 +471,10 @@
                     font-size   : 1.3vw;
                     margin-left : 5vw;
                     margin-right: 5vw;
+
+                    @media @phone {
+                        font-size: 3vw;
+                    }
                 }
             }
         }
@@ -296,6 +485,11 @@
 
             h1 {
                 font-size: 5vw;
+
+                @media @phone {
+                    font-size    : 8vw;
+                    margin-bottom: 3vw;
+                }
             }
         }
 
@@ -303,22 +497,40 @@
             display  : flex;
             flex-wrap: wrap;
 
+            @media @phone {
+                flex-direction: column;
+                align-items   : center;
+            }
+
             .member {
                 width          : 33.3%;
                 justify-content: center;
                 align-items    : center;
                 padding-bottom : 5%;
 
+                @media @phone {
+                    width         : 80%;
+                    padding-bottom: 3%;
+                }
+
                 h3 {
                     text-align: center;
                     color     : black;
                     font-size : 1.8vw;
+
+                    @media @phone {
+                        font-size: 5vw;
+                    }
                 }
 
                 p {
                     text-align: center;
                     color     : black;
                     font-size : 1.5vw;
+
+                    @media @phone {
+                        font-size: 3.5vw;
+                    }
                 }
 
                 .profilePic {

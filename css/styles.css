@@ -138,6 +138,11 @@ nav {
   border-width: 0.35vw;
   background-color: black;
 }
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+}
 nav .signIn {
   border-radius: 0.3vw;
   text-align: center;
@@ -147,6 +152,11 @@ nav .signIn {
   padding: 0.5vw;
   border-width: 0.12vw;
   white-space: nowrap;
+}
+@media (max-width: 500px) {
+  nav .signIn {
+    margin: 1%;
+  }
 }
 nav .signIn a {
   text-decoration: none;
@@ -159,6 +169,13 @@ nav a {
   text-decoration: none;
   color: white;
   white-space: nowrap;
+}
+@media (max-width: 500px) {
+  nav a {
+    font-size: 3vw;
+    margin: 0;
+    padding: 1%;
+  }
 }
 footer {
   width: 100%;
@@ -174,6 +191,11 @@ footer {
   margin-top: 1em;
   font-size: 1.3vw;
 }
+@media (max-width: 500px) {
+  footer {
+    font-size: 2.5vw;
+  }
+}
 .home {
   height: 100%;
   font-family: 'Dosis', sans-serif;
@@ -188,11 +210,18 @@ footer {
 }
 .home header .companyOnImage {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   position: absolute;
   top: 3.5vw;
   left: 3.5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home header .companyOnImage {
+    width: 80%;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+  }
 }
 .home header .sloganOnImage {
   position: absolute;
@@ -200,6 +229,11 @@ footer {
   left: 3.8vw;
   text-align: left;
   font-size: 2vw;
+}
+@media (max-width: 500px) {
+  .home header .sloganOnImage {
+    display: none;
+  }
 }
 .home header .sloganOnImage a {
   color: #FFFFFF;
@@ -246,6 +280,12 @@ footer {
   display: flex;
   flex-direction: row;
 }
+@media (max-width: 500px) {
+  .home section .introduction {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home section .introduction .leftSideOne {
   width: 50%;
   font-size: 3vw;
@@ -253,12 +293,26 @@ footer {
   padding-right: 2vw;
   margin-left: 2.5%;
 }
+@media (max-width: 500px) {
+  .home section .introduction .leftSideOne {
+    width: 80%;
+    font-size: 5vw;
+    margin-bottom: 3vw;
+  }
+}
 .home section .introduction .rightSideOne {
   width: 50%;
   font-size: 1.5vw;
   line-height: 1.5;
   padding-left: 2vw;
   margin-right: 2.5%;
+}
+@media (max-width: 500px) {
+  .home section .introduction .rightSideOne {
+    width: 80%;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+  }
 }
 .home section .suggestionsOne {
   display: flex;
@@ -269,17 +323,39 @@ footer {
   text-align: center;
   color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsOne {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home section .suggestionsOne img {
   width: 30%;
   margin-left: 1.5%;
   margin-right: 1.5%;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsOne img {
+    width: 70%;
+    margin: 0;
+    padding: 1vw;
+  }
+}
 .home section .suggestionsOne .textOnLAImage {
   position: absolute;
   top: 3.5vw;
   left: 5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .textOnLAImage {
+    position: absolute;
+    top: 5vw;
+    font-size: 8vw;
+    left: 33vw;
+  }
 }
 .home section .suggestionsOne .buttonOnLAImage {
   border-radius: 0.3vw;
@@ -298,10 +374,33 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnLAImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnLAImage {
+    position: absolute;
+    top: 90vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    left: 40vw;
+  }
+}
 .home section .suggestionsOne .textOnNYImage {
   position: absolute;
   top: 3.5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .textOnNYImage {
+    position: absolute;
+    top: 112vw;
+    font-size: 8vw;
+  }
 }
 .home section .suggestionsOne .buttonOnNYImage {
   border-radius: 0.3vw;
@@ -319,11 +418,34 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnNYImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnNYImage {
+    position: absolute;
+    top: 197vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+  }
+}
 .home section .suggestionsOne .textOnChicagoImage {
   position: absolute;
   top: 3.5vw;
   right: 8.5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .textOnChicagoImage {
+    position: absolute;
+    top: 219vw;
+    font-size: 8vw;
+    right: 37vw;
+  }
 }
 .home section .suggestionsOne .buttonOnChicagoImage {
   border-radius: 0.3vw;
@@ -342,6 +464,22 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnChicagoImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsOne .buttonOnChicagoImage {
+    position: absolute;
+    top: 305vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    right: 37vw;
+  }
+}
 .home section .suggestionsTwo {
   display: flex;
   width: 100%;
@@ -351,17 +489,39 @@ footer {
   text-align: center;
   color: #FFFFFF;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsTwo {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home section .suggestionsTwo img {
   width: 30%;
   margin-left: 1.7%;
   margin-right: 1.4%;
   margin-bottom: 2%;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsTwo img {
+    width: 70%;
+    margin: 0;
+    padding: 1vw;
+  }
+}
 .home section .suggestionsTwo .textOnAustinImage {
   position: absolute;
   top: 3.5vw;
   left: 4.5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .textOnAustinImage {
+    position: absolute;
+    top: 5vw;
+    font-size: 8vw;
+    left: 33vw;
+  }
 }
 .home section .suggestionsTwo .buttonOnAustinImage {
   border-radius: 0.3vw;
@@ -380,10 +540,33 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnAustinImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnAustinImage {
+    position: absolute;
+    top: 90vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    left: 40vw;
+  }
+}
 .home section .suggestionsTwo .textOnSeattleImage {
   position: absolute;
   top: 3.5vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .textOnSeattleImage {
+    position: absolute;
+    top: 115vw;
+    font-size: 8vw;
+  }
 }
 .home section .suggestionsTwo .buttonOnSeattleImage {
   border-radius: 0.3vw;
@@ -401,11 +584,34 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnSeattleImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnSeattleImage {
+    position: absolute;
+    top: 202vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+  }
+}
 .home section .suggestionsTwo .textOnWashingtonImage {
   position: absolute;
   top: 3.5vw;
   right: 6vw;
   font-size: 4.5vw;
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .textOnWashingtonImage {
+    position: absolute;
+    top: 225vw;
+    font-size: 8vw;
+    right: 33vw;
+  }
 }
 .home section .suggestionsTwo .buttonOnWashingtonImage {
   border-radius: 0.3vw;
@@ -424,9 +630,32 @@ footer {
   border-color: #FFFFFF;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnWashingtonImage {
+    margin: 1%;
+  }
+}
+@media (max-width: 500px) {
+  .home section .suggestionsTwo .buttonOnWashingtonImage {
+    position: absolute;
+    top: 310vw;
+    font-size: 4vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    right: 37vw;
+  }
+}
 .home section .advantages {
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 500px) {
+  .home section .advantages {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .home section .advantages .users {
   display: flex;
@@ -434,14 +663,30 @@ footer {
   width: 50%;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .home section .advantages .users {
+    width: 70%;
+    margin: 4vw;
+  }
+}
 .home section .advantages .users img {
   width: 10%;
   height: auto;
   margin-bottom: 1.5vw;
 }
+@media (max-width: 500px) {
+  .home section .advantages .users img {
+    width: 15%;
+  }
+}
 .home section .advantages .users h3 {
   font-size: 2.5vw;
   margin-bottom: 1vw;
+}
+@media (max-width: 500px) {
+  .home section .advantages .users h3 {
+    font-size: 5vw;
+  }
 }
 .home section .advantages .users p {
   text-align: center;
@@ -449,26 +694,52 @@ footer {
   margin-left: 5vw;
   margin-right: 5vw;
 }
+@media (max-width: 500px) {
+  .home section .advantages .users p {
+    font-size: 3vw;
+  }
+}
 .home section .advantages .guides {
   display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .home section .advantages .guides {
+    width: 70%;
+    margin: 4vw;
+  }
+}
 .home section .advantages .guides img {
   width: 10%;
   height: auto;
   margin-bottom: 1.5vw;
 }
+@media (max-width: 500px) {
+  .home section .advantages .guides img {
+    width: 15%;
+  }
+}
 .home section .advantages .guides h3 {
   font-size: 2.5vw;
   margin-bottom: 1vw;
+}
+@media (max-width: 500px) {
+  .home section .advantages .guides h3 {
+    font-size: 5vw;
+  }
 }
 .home section .advantages .guides p {
   text-align: center;
   font-size: 1.3vw;
   margin-left: 5vw;
   margin-right: 5vw;
+}
+@media (max-width: 500px) {
+  .home section .advantages .guides p {
+    font-size: 3vw;
+  }
 }
 .home section .meetUs {
   display: flex;
@@ -477,9 +748,21 @@ footer {
 .home section .meetUs h1 {
   font-size: 5vw;
 }
+@media (max-width: 500px) {
+  .home section .meetUs h1 {
+    font-size: 8vw;
+    margin-bottom: 3vw;
+  }
+}
 .home section .team {
   display: flex;
   flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+  .home section .team {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .home section .team .member {
   width: 33.3%;
@@ -487,15 +770,31 @@ footer {
   align-items: center;
   padding-bottom: 5%;
 }
+@media (max-width: 500px) {
+  .home section .team .member {
+    width: 80%;
+    padding-bottom: 3%;
+  }
+}
 .home section .team .member h3 {
   text-align: center;
   color: black;
   font-size: 1.8vw;
 }
+@media (max-width: 500px) {
+  .home section .team .member h3 {
+    font-size: 5vw;
+  }
+}
 .home section .team .member p {
   text-align: center;
   color: black;
   font-size: 1.5vw;
+}
+@media (max-width: 500px) {
+  .home section .team .member p {
+    font-size: 3.5vw;
+  }
 }
 .home section .team .member .profilePic {
   display: flex;

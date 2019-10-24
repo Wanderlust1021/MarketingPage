@@ -10,6 +10,10 @@ nav {
     border-width       : 0.35vw;
     background-color   : black;
 
+    @media @phone {
+        flex-direction: column;
+    }
+
     .signIn {
         .button();
 
@@ -26,5 +30,11 @@ nav {
         text-decoration: none;
         color          : white;
         white-space    : nowrap;
+
+        @media @phone {
+            font-size: 3vw;
+            margin: 0;
+            padding: 1%;
+        }
     }
 }
