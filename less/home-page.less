@@ -24,6 +24,10 @@
                 font-size    : 3vw;
                 margin-bottom: 1vw;
             }
+
+            @media @tablet {
+                font-size: 4vw;
+            }
         }
 
         .sloganOnImage {
@@ -35,6 +39,10 @@
 
             @media @phone {
                 display: none;
+            }
+
+            @media @tablet {
+                font-size: 2.2vw;
             }
 
             a {
@@ -95,6 +103,11 @@
                 align-items   : center;
             }
 
+            @media @tablet {
+                flex-direction: column;
+                align-items   : center;
+            }
+
             .leftSideOne {
                 width        : 50%;
                 font-size    : 3vw;
@@ -107,6 +120,13 @@
                     font-size    : 5vw;
                     margin-bottom: 3vw;
                 }
+
+                @media @tablet {
+                    width        : 70%;
+                    font-size    : 4vw;
+                    margin-bottom: 2vw;
+                }
+
             }
 
             .rightSideOne {
@@ -121,11 +141,18 @@
                     font-size    : 3vw;
                     margin-bottom: 1vw;
                 }
+
+                @media @tablet {
+                    width        : 70%;
+                    font-size    : 2.5vw;
+                    margin-bottom: 1.5vw;
+                }
             }
         }
 
-        .suggestionsOne {
+        .suggestions {
             display        : flex;
+            flex-wrap      : wrap;
             width          : 100%;
             height         : auto;
             justify-content: space-around;
@@ -139,6 +166,12 @@
                 align-items   : center;
             }
 
+            @media @tablet {
+                width          : 100%;
+                justify-content: center;
+                align-items    : center;
+            }
+
             img {
                 width        : 30%;
                 margin-left  : 1.5%;
@@ -150,12 +183,18 @@
                     margin : 0;
                     padding: 1vw;
                 }
+
+                @media @tablet {
+                    width  : 45%;
+                    margin : 0;
+                    padding: 2.3%;
+                }
             }
 
             .textOnLAImage {
                 position : absolute;
                 top      : 3.5vw;
-                left     : 5vw;
+                left     : 6vw;
                 font-size: 4.5vw;
 
                 @media @phone {
@@ -163,6 +202,13 @@
                     top      : 5vw;
                     font-size: 8vw;
                     left     : 33vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 5vw;
+                    font-size: 6vw;
+                    left     : 11vw;
                 }
             }
 
@@ -185,6 +231,16 @@
                     text-decoration: none;
                     left           : 40vw;
                 }
+
+                @media @tablet {
+                    position       : absolute;
+                    top            : 60vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    left           : 18vw;
+                }
             }
 
             .textOnNYImage {
@@ -196,6 +252,13 @@
                     position : absolute;
                     top      : 112vw;
                     font-size: 8vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 5vw;
+                    font-size: 6vw;
+                    right    : 14vw;
                 }
             }
 
@@ -216,6 +279,16 @@
                     border-color   : @textOnImages;
                     text-decoration: none;
                 }
+
+                @media @tablet {
+                    position       : absolute;
+                    top            : 60vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    right          : 18vw;
+                }
             }
 
             .textOnChicagoImage {
@@ -229,6 +302,13 @@
                     top      : 219vw;
                     font-size: 8vw;
                     right    : 37vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 78vw;
+                    font-size: 6vw;
+                    right    : 67vw;
                 }
             }
 
@@ -251,55 +331,43 @@
                     text-decoration: none;
                     right          : 37vw;
                 }
-            }
-        }
 
-        .suggestionsTwo {
-            display        : flex;
-            width          : 100%;
-            height         : auto;
-            justify-content: space-around;
-            position       : relative;
-            text-align     : center;
-            color          : @textOnImages;
-
-            @media @phone {
-                width         : 100%;
-                flex-direction: column;
-                align-items   : center;
-            }
-
-            img {
-                width        : 30%;
-                margin-left  : 1.7%;
-                margin-right : 1.4%;
-                margin-bottom: 2%;
-
-                @media @phone {
-                    width  : 70%;
-                    margin : 0;
-                    padding: 1vw;
+                @media @tablet {
+                    position       : absolute;
+                    top            : 133vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    right          : 67vw;
                 }
             }
 
             .textOnAustinImage {
                 position : absolute;
-                top      : 3.5vw;
-                left     : 4.5vw;
+                top      : 50vw;
+                left     : 6vw;
                 font-size: 4.5vw;
 
                 @media @phone {
                     position : absolute;
-                    top      : 5vw;
+                    top      : 326vw;
                     font-size: 8vw;
                     left     : 33vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 78vw;
+                    font-size: 6vw;
+                    left     : 61vw;
                 }
             }
 
             .buttonOnAustinImage {
                 .button();
                 position       : absolute;
-                top            : 37vw;
+                top            : 83.5vw;
                 left           : 10vw;
                 font-size      : 2vw;
                 color          : @textOnImages;
@@ -308,31 +376,48 @@
 
                 @media @phone {
                     position       : absolute;
-                    top            : 90vw;
+                    top            : 412vw;
                     font-size      : 4vw;
                     color          : @textOnImages;
                     border-color   : @textOnImages;
                     text-decoration: none;
                     left           : 40vw;
                 }
+
+                @media @tablet {
+                    position       : absolute;
+                    top            : 133vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    left           : 67vw;
+                }
             }
 
             .textOnSeattleImage {
                 position : absolute;
-                top      : 3.5vw;
+                top      : 50vw;
                 font-size: 4.5vw;
 
                 @media @phone {
                     position : absolute;
-                    top      : 115vw;
+                    top      : 436vw;
                     font-size: 8vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 150vw;
+                    font-size: 6vw;
+                    right    : 67vw;
                 }
             }
 
             .buttonOnSeattleImage {
                 .button();
                 position       : absolute;
-                top            : 37vw;
+                top            : 83.5vw;
                 font-size      : 2vw;
                 color          : @textOnImages;
                 border-color   : @textOnImages;
@@ -340,32 +425,49 @@
 
                 @media @phone {
                     position       : absolute;
-                    top            : 202vw;
+                    top            : 522vw;
                     font-size      : 4vw;
                     color          : @textOnImages;
                     border-color   : @textOnImages;
                     text-decoration: none;
                 }
+
+                @media @tablet {
+                    position       : absolute;
+                    top            : 206vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    left           : 18vw;
+                }
             }
 
             .textOnWashingtonImage {
                 position : absolute;
-                top      : 3.5vw;
+                top      : 50vw;
                 right    : 6vw;
                 font-size: 4.5vw;
 
                 @media @phone {
                     position : absolute;
-                    top      : 225vw;
+                    top      : 547vw;
                     font-size: 8vw;
                     right    : 33vw;
+                }
+
+                @media @tablet {
+                    position : absolute;
+                    top      : 150vw;
+                    font-size: 6vw;
+                    left     : 58vw;
                 }
             }
 
             .buttonOnWashingtonImage {
                 .button();
                 position       : absolute;
-                top            : 37vw;
+                top            : 83.5vw;
                 right          : 10vw;
                 font-size      : 2vw;
                 color          : @textOnImages;
@@ -374,12 +476,22 @@
 
                 @media @phone {
                     position       : absolute;
-                    top            : 310vw;
+                    top            : 633vw;
                     font-size      : 4vw;
                     color          : @textOnImages;
                     border-color   : @textOnImages;
                     text-decoration: none;
                     right          : 37vw;
+                }
+
+                @media @tablet {
+                    position       : absolute;
+                    top            : 206vw;
+                    font-size      : 3vw;
+                    color          : @textOnImages;
+                    border-color   : @textOnImages;
+                    text-decoration: none;
+                    right          : 18vw;
                 }
             }
         }
@@ -389,6 +501,12 @@
             flex-direction: row;
 
             @media @phone {
+                width         : 100%;
+                flex-direction: column;
+                align-items   : center
+            }
+
+            @media @tablet {
                 width         : 100%;
                 flex-direction: column;
                 align-items   : center
@@ -405,6 +523,12 @@
                     margin: 4vw;
                 }
 
+                @media @tablet {
+                    width : 80%;
+                    margin: 3vw;
+                }
+
+
                 img {
                     width        : 10%;
                     height       : auto;
@@ -412,6 +536,10 @@
 
                     @media @phone {
                         width: 15%;
+                    }
+
+                    @media @tablet {
+                        width: 10%;
                     }
                 }
 
@@ -421,6 +549,10 @@
 
                     @media @phone {
                         font-size: 5vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 4vw;
                     }
                 }
 
@@ -432,6 +564,10 @@
 
                     @media @phone {
                         font-size: 3vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 2.5vw;
                     }
                 }
             }
@@ -447,6 +583,11 @@
                     margin: 4vw;
                 }
 
+                @media @tablet {
+                    width : 80%;
+                    margin: 3vw;
+                }
+
                 img {
                     width        : 10%;
                     height       : auto;
@@ -454,6 +595,10 @@
 
                     @media @phone {
                         width: 15%;
+                    }
+
+                    @media @tablet {
+                        width: 10%;
                     }
                 }
 
@@ -463,6 +608,10 @@
 
                     @media @phone {
                         font-size: 5vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 4vw;
                     }
                 }
 
@@ -474,6 +623,10 @@
 
                     @media @phone {
                         font-size: 3vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 2.5vw;
                     }
                 }
             }
@@ -489,6 +642,11 @@
                 @media @phone {
                     font-size    : 8vw;
                     margin-bottom: 3vw;
+                }
+
+                @media @tablet {
+                    font-size    : 6vw;
+                    margin-bottom: 2vw;
                 }
             }
         }
@@ -513,6 +671,11 @@
                     padding-bottom: 3%;
                 }
 
+                @media @tablet {
+                    width  : 45%;
+                    padding: 2.5%;
+                }
+
                 h3 {
                     text-align: center;
                     color     : black;
@@ -520,6 +683,10 @@
 
                     @media @phone {
                         font-size: 5vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 3.4vw;
                     }
                 }
 
@@ -530,6 +697,10 @@
 
                     @media @phone {
                         font-size: 3.5vw;
+                    }
+
+                    @media @tablet {
+                        font-size: 2.5vw;
                     }
                 }
 

@@ -177,6 +177,11 @@ nav a {
     padding: 1%;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  nav a {
+    font-size: 2.5vw;
+  }
+}
 footer {
   width: 100%;
   background-color: black;
@@ -194,6 +199,11 @@ footer {
 @media (max-width: 500px) {
   footer {
     font-size: 2.5vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  footer {
+    font-size: 2vw;
   }
 }
 .home {
@@ -223,6 +233,11 @@ footer {
     margin-bottom: 1vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home header .companyOnImage {
+    font-size: 4vw;
+  }
+}
 .home header .sloganOnImage {
   position: absolute;
   top: 8.5vw;
@@ -233,6 +248,11 @@ footer {
 @media (max-width: 500px) {
   .home header .sloganOnImage {
     display: none;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home header .sloganOnImage {
+    font-size: 2.2vw;
   }
 }
 .home header .sloganOnImage a {
@@ -286,6 +306,12 @@ footer {
     align-items: center;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .introduction {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home section .introduction .leftSideOne {
   width: 50%;
   font-size: 3vw;
@@ -298,6 +324,13 @@ footer {
     width: 80%;
     font-size: 5vw;
     margin-bottom: 3vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .introduction .leftSideOne {
+    width: 70%;
+    font-size: 4vw;
+    margin-bottom: 2vw;
   }
 }
 .home section .introduction .rightSideOne {
@@ -314,8 +347,16 @@ footer {
     margin-bottom: 1vw;
   }
 }
-.home section .suggestionsOne {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .introduction .rightSideOne {
+    width: 70%;
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+  }
+}
+.home section .suggestions {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
   justify-content: space-around;
@@ -324,40 +365,62 @@ footer {
   color: #FFFFFF;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne {
+  .home section .suggestions {
     width: 100%;
     flex-direction: column;
     align-items: center;
   }
 }
-.home section .suggestionsOne img {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.home section .suggestions img {
   width: 30%;
   margin-left: 1.5%;
   margin-right: 1.5%;
   margin-bottom: 2%;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne img {
+  .home section .suggestions img {
     width: 70%;
     margin: 0;
     padding: 1vw;
   }
 }
-.home section .suggestionsOne .textOnLAImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions img {
+    width: 45%;
+    margin: 0;
+    padding: 2.3%;
+  }
+}
+.home section .suggestions .textOnLAImage {
   position: absolute;
   top: 3.5vw;
-  left: 5vw;
+  left: 6vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .textOnLAImage {
+  .home section .suggestions .textOnLAImage {
     position: absolute;
     top: 5vw;
     font-size: 8vw;
     left: 33vw;
   }
 }
-.home section .suggestionsOne .buttonOnLAImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnLAImage {
+    position: absolute;
+    top: 5vw;
+    font-size: 6vw;
+    left: 11vw;
+  }
+}
+.home section .suggestions .buttonOnLAImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -375,12 +438,12 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnLAImage {
+  .home section .suggestions .buttonOnLAImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnLAImage {
+  .home section .suggestions .buttonOnLAImage {
     position: absolute;
     top: 90vw;
     font-size: 4vw;
@@ -390,19 +453,38 @@ footer {
     left: 40vw;
   }
 }
-.home section .suggestionsOne .textOnNYImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnLAImage {
+    position: absolute;
+    top: 60vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    left: 18vw;
+  }
+}
+.home section .suggestions .textOnNYImage {
   position: absolute;
   top: 3.5vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .textOnNYImage {
+  .home section .suggestions .textOnNYImage {
     position: absolute;
     top: 112vw;
     font-size: 8vw;
   }
 }
-.home section .suggestionsOne .buttonOnNYImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnNYImage {
+    position: absolute;
+    top: 5vw;
+    font-size: 6vw;
+    right: 14vw;
+  }
+}
+.home section .suggestions .buttonOnNYImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -419,12 +501,12 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnNYImage {
+  .home section .suggestions .buttonOnNYImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnNYImage {
+  .home section .suggestions .buttonOnNYImage {
     position: absolute;
     top: 197vw;
     font-size: 4vw;
@@ -433,21 +515,40 @@ footer {
     text-decoration: none;
   }
 }
-.home section .suggestionsOne .textOnChicagoImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnNYImage {
+    position: absolute;
+    top: 60vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    right: 18vw;
+  }
+}
+.home section .suggestions .textOnChicagoImage {
   position: absolute;
   top: 3.5vw;
   right: 8.5vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .textOnChicagoImage {
+  .home section .suggestions .textOnChicagoImage {
     position: absolute;
     top: 219vw;
     font-size: 8vw;
     right: 37vw;
   }
 }
-.home section .suggestionsOne .buttonOnChicagoImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnChicagoImage {
+    position: absolute;
+    top: 78vw;
+    font-size: 6vw;
+    right: 67vw;
+  }
+}
+.home section .suggestions .buttonOnChicagoImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -465,12 +566,12 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnChicagoImage {
+  .home section .suggestions .buttonOnChicagoImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsOne .buttonOnChicagoImage {
+  .home section .suggestions .buttonOnChicagoImage {
     position: absolute;
     top: 305vw;
     font-size: 4vw;
@@ -480,50 +581,40 @@ footer {
     right: 37vw;
   }
 }
-.home section .suggestionsTwo {
-  display: flex;
-  width: 100%;
-  height: auto;
-  justify-content: space-around;
-  position: relative;
-  text-align: center;
-  color: #FFFFFF;
-}
-@media (max-width: 500px) {
-  .home section .suggestionsTwo {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnChicagoImage {
+    position: absolute;
+    top: 133vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    right: 67vw;
   }
 }
-.home section .suggestionsTwo img {
-  width: 30%;
-  margin-left: 1.7%;
-  margin-right: 1.4%;
-  margin-bottom: 2%;
-}
-@media (max-width: 500px) {
-  .home section .suggestionsTwo img {
-    width: 70%;
-    margin: 0;
-    padding: 1vw;
-  }
-}
-.home section .suggestionsTwo .textOnAustinImage {
+.home section .suggestions .textOnAustinImage {
   position: absolute;
-  top: 3.5vw;
-  left: 4.5vw;
+  top: 50vw;
+  left: 6vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .textOnAustinImage {
+  .home section .suggestions .textOnAustinImage {
     position: absolute;
-    top: 5vw;
+    top: 326vw;
     font-size: 8vw;
     left: 33vw;
   }
 }
-.home section .suggestionsTwo .buttonOnAustinImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnAustinImage {
+    position: absolute;
+    top: 78vw;
+    font-size: 6vw;
+    left: 61vw;
+  }
+}
+.home section .suggestions .buttonOnAustinImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -533,7 +624,7 @@ footer {
   border-width: 0.12vw;
   white-space: nowrap;
   position: absolute;
-  top: 37vw;
+  top: 83.5vw;
   left: 10vw;
   font-size: 2vw;
   color: #FFFFFF;
@@ -541,14 +632,14 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnAustinImage {
+  .home section .suggestions .buttonOnAustinImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnAustinImage {
+  .home section .suggestions .buttonOnAustinImage {
     position: absolute;
-    top: 90vw;
+    top: 412vw;
     font-size: 4vw;
     color: #FFFFFF;
     border-color: #FFFFFF;
@@ -556,19 +647,38 @@ footer {
     left: 40vw;
   }
 }
-.home section .suggestionsTwo .textOnSeattleImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnAustinImage {
+    position: absolute;
+    top: 133vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    left: 67vw;
+  }
+}
+.home section .suggestions .textOnSeattleImage {
   position: absolute;
-  top: 3.5vw;
+  top: 50vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .textOnSeattleImage {
+  .home section .suggestions .textOnSeattleImage {
     position: absolute;
-    top: 115vw;
+    top: 436vw;
     font-size: 8vw;
   }
 }
-.home section .suggestionsTwo .buttonOnSeattleImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnSeattleImage {
+    position: absolute;
+    top: 150vw;
+    font-size: 6vw;
+    right: 67vw;
+  }
+}
+.home section .suggestions .buttonOnSeattleImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -578,42 +688,61 @@ footer {
   border-width: 0.12vw;
   white-space: nowrap;
   position: absolute;
-  top: 37vw;
+  top: 83.5vw;
   font-size: 2vw;
   color: #FFFFFF;
   border-color: #FFFFFF;
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnSeattleImage {
+  .home section .suggestions .buttonOnSeattleImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnSeattleImage {
+  .home section .suggestions .buttonOnSeattleImage {
     position: absolute;
-    top: 202vw;
+    top: 522vw;
     font-size: 4vw;
     color: #FFFFFF;
     border-color: #FFFFFF;
     text-decoration: none;
   }
 }
-.home section .suggestionsTwo .textOnWashingtonImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnSeattleImage {
+    position: absolute;
+    top: 206vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    left: 18vw;
+  }
+}
+.home section .suggestions .textOnWashingtonImage {
   position: absolute;
-  top: 3.5vw;
+  top: 50vw;
   right: 6vw;
   font-size: 4.5vw;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .textOnWashingtonImage {
+  .home section .suggestions .textOnWashingtonImage {
     position: absolute;
-    top: 225vw;
+    top: 547vw;
     font-size: 8vw;
     right: 33vw;
   }
 }
-.home section .suggestionsTwo .buttonOnWashingtonImage {
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .textOnWashingtonImage {
+    position: absolute;
+    top: 150vw;
+    font-size: 6vw;
+    left: 58vw;
+  }
+}
+.home section .suggestions .buttonOnWashingtonImage {
   border-radius: 0.3vw;
   text-align: center;
   color: white;
@@ -623,7 +752,7 @@ footer {
   border-width: 0.12vw;
   white-space: nowrap;
   position: absolute;
-  top: 37vw;
+  top: 83.5vw;
   right: 10vw;
   font-size: 2vw;
   color: #FFFFFF;
@@ -631,14 +760,14 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnWashingtonImage {
+  .home section .suggestions .buttonOnWashingtonImage {
     margin: 1%;
   }
 }
 @media (max-width: 500px) {
-  .home section .suggestionsTwo .buttonOnWashingtonImage {
+  .home section .suggestions .buttonOnWashingtonImage {
     position: absolute;
-    top: 310vw;
+    top: 633vw;
     font-size: 4vw;
     color: #FFFFFF;
     border-color: #FFFFFF;
@@ -646,11 +775,29 @@ footer {
     right: 37vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .suggestions .buttonOnWashingtonImage {
+    position: absolute;
+    top: 206vw;
+    font-size: 3vw;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    text-decoration: none;
+    right: 18vw;
+  }
+}
 .home section .advantages {
   display: flex;
   flex-direction: row;
 }
 @media (max-width: 500px) {
+  .home section .advantages {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
   .home section .advantages {
     width: 100%;
     flex-direction: column;
@@ -669,6 +816,12 @@ footer {
     margin: 4vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .users {
+    width: 80%;
+    margin: 3vw;
+  }
+}
 .home section .advantages .users img {
   width: 10%;
   height: auto;
@@ -677,6 +830,11 @@ footer {
 @media (max-width: 500px) {
   .home section .advantages .users img {
     width: 15%;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .users img {
+    width: 10%;
   }
 }
 .home section .advantages .users h3 {
@@ -688,6 +846,11 @@ footer {
     font-size: 5vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .users h3 {
+    font-size: 4vw;
+  }
+}
 .home section .advantages .users p {
   text-align: center;
   font-size: 1.3vw;
@@ -697,6 +860,11 @@ footer {
 @media (max-width: 500px) {
   .home section .advantages .users p {
     font-size: 3vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .users p {
+    font-size: 2.5vw;
   }
 }
 .home section .advantages .guides {
@@ -711,6 +879,12 @@ footer {
     margin: 4vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .guides {
+    width: 80%;
+    margin: 3vw;
+  }
+}
 .home section .advantages .guides img {
   width: 10%;
   height: auto;
@@ -721,6 +895,11 @@ footer {
     width: 15%;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .guides img {
+    width: 10%;
+  }
+}
 .home section .advantages .guides h3 {
   font-size: 2.5vw;
   margin-bottom: 1vw;
@@ -728,6 +907,11 @@ footer {
 @media (max-width: 500px) {
   .home section .advantages .guides h3 {
     font-size: 5vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .guides h3 {
+    font-size: 4vw;
   }
 }
 .home section .advantages .guides p {
@@ -741,6 +925,11 @@ footer {
     font-size: 3vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .advantages .guides p {
+    font-size: 2.5vw;
+  }
+}
 .home section .meetUs {
   display: flex;
   justify-content: center;
@@ -752,6 +941,12 @@ footer {
   .home section .meetUs h1 {
     font-size: 8vw;
     margin-bottom: 3vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .meetUs h1 {
+    font-size: 6vw;
+    margin-bottom: 2vw;
   }
 }
 .home section .team {
@@ -776,6 +971,12 @@ footer {
     padding-bottom: 3%;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .team .member {
+    width: 45%;
+    padding: 2.5%;
+  }
+}
 .home section .team .member h3 {
   text-align: center;
   color: black;
@@ -786,6 +987,11 @@ footer {
     font-size: 5vw;
   }
 }
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .team .member h3 {
+    font-size: 3.4vw;
+  }
+}
 .home section .team .member p {
   text-align: center;
   color: black;
@@ -794,6 +1000,11 @@ footer {
 @media (max-width: 500px) {
   .home section .team .member p {
     font-size: 3.5vw;
+  }
+}
+@media (max-width: 1000px) and (min-width: 501px) {
+  .home section .team .member p {
+    font-size: 2.5vw;
   }
 }
 .home section .team .member .profilePic {
